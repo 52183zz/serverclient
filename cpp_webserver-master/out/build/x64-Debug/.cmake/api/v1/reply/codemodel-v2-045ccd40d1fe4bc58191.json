@@ -1,0 +1,188 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "timer",
+					"jsonFile" : "directory-timer-Debug-28bf9ad0e4298d490eff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "timer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "http_connect",
+					"jsonFile" : "directory-http_connect-Debug-9cb96d6b51b1c35ad2f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "http_connect",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "thread_pool",
+					"jsonFile" : "directory-thread_pool-Debug-d71fd40a305aa4c945b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "thread_pool",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "mysql_conn_pool",
+					"jsonFile" : "directory-mysql_conn_pool-Debug-c696bf64512640235ed7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mysql_conn_pool",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "log",
+					"jsonFile" : "directory-log-Debug-7541e1bc130c3cc1c927.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "log",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "webserver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-Debug-259606660ef34b9ad9fd.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "http_conn::@14d792a864f2c3177cb1",
+					"jsonFile" : "target-http_conn-Debug-c39fabc3b4fe1b3d488d.json",
+					"name" : "http_conn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "listTimer::@e9ff641aa61df0ac1632",
+					"jsonFile" : "target-listTimer-Debug-322713cc3dd9638d1bc1.json",
+					"name" : "listTimer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "locker::@660febec2b18077639e4",
+					"jsonFile" : "target-locker-Debug-baf336a3b4ceb1630915.json",
+					"name" : "locker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "log::@e2c7cea07f24a8229370",
+					"jsonFile" : "target-log-Debug-b9a899e8375b02be3b81.json",
+					"name" : "log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mysql_conn_pool::@fa36e8e51efa3366130d",
+					"jsonFile" : "target-mysql_conn_pool-Debug-a36571655ad8d9a4f495.json",
+					"name" : "mysql_conn_pool",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/aaaMyProject/cpp_webserver-master/out/build/x64-Debug",
+		"source" : "D:/aaaMyProject/cpp_webserver-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
